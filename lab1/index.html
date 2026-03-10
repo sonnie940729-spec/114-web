@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隨機抽籤器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card">
+        <h1>🎯 隨機抽籤器</h1>
+        <p>請輸入名單，每行一個名字：</p>
+        
+        <textarea id="nameList" placeholder="小明&#10;小華&#10;小美..."></textarea>
+        
+        <button onclick="drawWinner()">開始抽籤</button>
+
+        <div class="result-box">
+            <span>抽中的幸運兒是：</span>
+            <div id="winnerDisplay">？</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
