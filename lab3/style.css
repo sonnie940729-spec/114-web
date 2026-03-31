@@ -1,0 +1,83 @@
+/* 1. 基本頁面設定 */
+body {
+    font-family: "Microsoft JhengHei", "PingFang TC", sans-serif;
+    background-color: #f9f9f9; /* 淡灰色背景，讓圖片更突出 */
+    color: #333;
+    line-height: 1.8;
+    max-width: 900px;
+    margin: 40px auto; /* 頁面居中 */
+    padding: 20px;
+    text-align: center; /* 讓文字與內容預設居中 */
+}
+
+/* 2. 標題美化 */
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #555;
+    margin-top: 20px;
+}
+
+/* 3. 圖片樣式設定 */
+img {
+    width: 80%; /* 圖片寬度佔容器的 80% */
+    max-width: 400px; /* 限制最大寬度，避免在電腦螢幕過大 */
+    border-radius: 15px; /* 圓角效果，增加公仔感的精緻度 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* 柔和的陰影 */
+    margin: 20px 10px;
+    transition: transform 0.3s ease; /* 滑鼠滑過時的動畫效果 */
+}
+
+img:hover {
+    transform: scale(1.05); /* 滑鼠滑過時稍微放大 */
+}
+
+/* 4. 文字段落 */
+p {
+    font-style: italic;
+    color: #777;
+    margin: 20px 0;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 40px 0;
+}
+
+/* 5. 超連結按鈕化 */
+a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    transition: all 0.3s;
+    margin: 10px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #3498db;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.4);
+}
+
+/* 針對「回到首頁」連結給予不同顏色 */
+a[href="../index.html"] {
+    color: #95a5a6;
+    border-color: #95a5a6;
+}
+
+a[href="../index.html"]:hover {
+    background-color: #95a5a6;
+    color: #fff;
+}
