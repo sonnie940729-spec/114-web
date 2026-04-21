@@ -1,12 +1,46 @@
 h1 {
-    color: #2c3e50;
-    font-size: 32px;
-  }
-  body {
-    background-color: #f5f7fa;
-    font-family: Arial, sans-serif;
-    display: inline-block;
-    text-align: center;
-    padding: 20px;
-    color: #555;
-  }
+  color: rgb(212, 212, 230);
+  text-align: center;
+  font-size: 32px;
+}
+body {
+  background: radial-gradient(circle, white, black);
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  margin: 0;
+}
+p {
+  font-size: 18px;
+  color: #ebe1e1;
+}
+ul {
+  display: inline-block;
+  text-align: left;
+}
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+}
+
+th {
+  background-color: #1c1c1d;
+  color: white;
+}
+#my-table {
+  background-color: rgb(94, 75, 75);
+}
+
+.row1 {
+  background-color: #5a4a4a;
+}
+
+.row2 {
+  background-color: #3e5a7a;
+}
